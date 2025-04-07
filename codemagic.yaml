@@ -1,0 +1,32 @@
+workflows:
+  ios-release:
+    name: iOS Release Build
+    environment:
+      vars:
+        XCODE_WORKSPACE: "Runner.xcworkspace"
+        XCODE_SCHEME: "Runner"
+    integrations:
+      app_store_connect: "enabled"  # Assurez-vous que cette intégration est bien configurée dans Codemagic
+    scripts:
+      - name: Flutter clean & get dependencies
+        script: |
+          #!/bin/bash
+          set -e
+          flutter clean
+          flutter pub get
+
+      - name: Build iOS
+        script: |
+          #!/bin/bash
+          set -e
+          flutter build ios --release --no-codesign
+          xcode-project use-profiles
+          xcode-project build-ipa --workspace="$XCODE_WORKSPACE" --scheme="$XCODE_SCHEME"
+          
+    artifacts:
+      - build/ios/ipa/*.ipa
+
+    publishing:
+      app_store_connect:
+        auth: integration  # Utilise l'intégration pour l'authentification
+        submit_to_testflight: true
